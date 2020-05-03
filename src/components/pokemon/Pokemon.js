@@ -227,7 +227,10 @@ export default class Pokemon extends Component {
                       <div
                         className="progress-bar"
                         role="progressBar"
-                        style={{ width: `${this.state.stats.hp}%` }}
+                        style={{
+                          width: `${this.state.stats.hp}%`,
+                          backgroundColor: "#228B22"
+                        }}
                         aria-valuenow="25"
                         aria-valuemin="0"
                         aria-valuemax="100"
@@ -244,7 +247,10 @@ export default class Pokemon extends Component {
                       <div
                         className="progress-bar"
                         role="progressBar"
-                        style={{ width: `${this.state.stats.attack}%` }}
+                        style={{
+                          width: `${this.state.stats.attack}%`,
+                          backgroundColor: "#228B22"
+                        }}
                         aria-valuenow="25"
                         aria-valuemin="0"
                         aria-valuemax="100"
@@ -261,7 +267,10 @@ export default class Pokemon extends Component {
                       <div
                         className="progress-bar"
                         role="progressBar"
-                        style={{ width: `${this.state.stats.defense}%` }}
+                        style={{
+                          width: `${this.state.stats.defense}%`,
+                          backgroundColor: "#228B22"
+                        }}
                         aria-valuenow="25"
                         aria-valuemin="0"
                         aria-valuemax="100"
@@ -278,7 +287,10 @@ export default class Pokemon extends Component {
                       <div
                         className="progress-bar"
                         role="progressBar"
-                        style={{ width: `${this.state.stats.specialAttack}%` }}
+                        style={{
+                          width: `${this.state.stats.specialAttack}%`,
+                          backgroundColor: "#228B22"
+                        }}
                         aria-valuenow="25"
                         aria-valuemin="0"
                         aria-valuemax="100"
@@ -295,7 +307,10 @@ export default class Pokemon extends Component {
                       <div
                         className="progress-bar"
                         role="progressBar"
-                        style={{ width: `${this.state.stats.specialDefense}%` }}
+                        style={{
+                          width: `${this.state.stats.specialDefense}%`,
+                          backgroundColor: "#228B22"
+                        }}
                         aria-valuenow="25"
                         aria-valuemin="0"
                         aria-valuemax="100"
@@ -312,7 +327,10 @@ export default class Pokemon extends Component {
                       <div
                         className="progress-bar"
                         role="progressBar"
-                        style={{ width: `${this.state.stats.speed}%` }}
+                        style={{
+                          width: `${this.state.stats.speed}%`,
+                          backgroundColor: "#228B22"
+                        }}
                         aria-valuenow="25"
                         aria-valuemin="0"
                         aria-valuemax="100"

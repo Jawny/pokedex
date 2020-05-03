@@ -7,7 +7,7 @@ import mainpagespinner from "../pokemon/mainpagespinner.gif";
 
 export default class PokemonList extends Component {
   state = {
-    url: "https://pokeapi.co/api/v2/pokemon?limit=151",
+    url: "https://pokeapi.co/api/v2/pokemon?limit=151", // change limit number to 1000 to include all pokemon
     pokemon: null
   };
 
