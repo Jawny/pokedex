@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Try this out at https://jawny.github.io/pokedex/#/
-Data taken from https://pokeapi.co
+Try this out at https://jawny.github.io/pokedex/#/ <br/>
+Data taken from https://pokeapi.co <br/>
 
 ## Available Scripts
 
