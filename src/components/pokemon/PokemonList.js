@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PokemonCard from "./PokemonCard";
+import data from "./pokemon.json";
 import axios from "axios";
 
 import mainpagespinner from "../pokemon/mainpagespinner.gif";
@@ -13,6 +14,7 @@ export default class PokemonList extends Component {
   async componentDidMount() {
     const res = await axios.get(this.state.url);
     this.setState({ pokemon: res.data["results"] });
+    // this.setState({ pokemon: data }); json file method but it sucks
   }
   render() {
     return (
